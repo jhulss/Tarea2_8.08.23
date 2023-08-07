@@ -1,4 +1,5 @@
-import multiplicar from "./sumador";
+import sumar from "./sumador";
+
 
 
 
@@ -13,5 +14,5 @@ form.addEventListener("submit", (event) => {
   const firstNumber = Number.parseInt(first.value);
   const secondNumber = Number.parseInt(second.value);
 
-  div.innerHTML = "<p>" + multiplicar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
 });
