@@ -1,8 +1,9 @@
-import restar from "./sumador.js";
+import multiplicar from "./sumador.js";
 
 
-describe("Restar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(restar(3, 2)).toEqual(1);
+
+describe("Multiplicar", () => {
+  it("deberia multiplicar dos numeros", () => {
+    expect(multiplicar(3, 2)).toEqual(6);
   });
 });

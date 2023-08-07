@@ -1,4 +1,5 @@
-import restar from "./sumador";
+import multiplicar from "./sumador";
+
 
 
 const first = document.querySelector("#primer-numero");
@@ -12,5 +13,5 @@ form.addEventListener("submit", (event) => {
   const firstNumber = Number.parseInt(first.value);
   const secondNumber = Number.parseInt(second.value);
 
-  div.innerHTML = "<p>" + restar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" + multiplicar(firstNumber, secondNumber) + "</p>";
 });
